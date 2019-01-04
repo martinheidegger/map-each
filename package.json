@@ -1,0 +1,44 @@
+{
+  "name": "map-each",
+  "version": "1.0.0",
+  "description": "A very small, flexible, parallel async mapping helper that has first-class support for Iterators and concurrency.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:lint && npm run test:unit",
+    "test:lint": "standard",
+    "test:unit": "tap test/**/*.js test/*.js",
+    "test:ci": "npm run test:lint && npm run test:unit -- --cov --coverage-report=lcov",
+    "release": "standard-version"
+  },
+  "keywords": [
+    "async",
+    "iteration",
+    "mapping",
+    "foreach",
+    "parallel",
+    "each",
+    "iterable",
+    "iterator"
+  ],
+  "author": "Martin Heidegger <martin.heidegger@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "standard-version": "^4.4.0",
+    "tap": "^12.1.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "setimmediate2": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinheidegger/map-each.git"
+  },
+  "bugs": {
+    "url": "https://github.com/martinheidegger/map-each/issues"
+  },
+  "homepage": "https://github.com/martinheidegger/map-each#readme"
+}
