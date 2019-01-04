@@ -2,8 +2,8 @@
 
 <a href="https://travis-ci.org/martinheidegger/map-each"><img src="https://travis-ci.org/martinheidegger/map-each.svg?branch=master" alt="Build Status"/></a>
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![Maintainability](https://api.codeclimate.com/v1/badges/xxx/maintainability)](https://codeclimate.com/github/martinheidegger/map-each/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/xxx/test_coverage)](https://codeclimate.com/github/martinheidegger/map-each/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/145d866d11ece4da9e69/maintainability)](https://codeclimate.com/github/martinheidegger/map-each/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/145d866d11ece4da9e69/test_coverage)](https://codeclimate.com/github/martinheidegger/map-each/test_coverage)
 
 `map-each` is a **very small**, **flexible**, **parallel** async mapping helper that has first-class support for [Iterators][]
 (unlike other libraries, which mostly break with iterators) and **concurrency**. It also has complete TypeScript header files for
